@@ -1,7 +1,11 @@
 ---
-services: search
-platforms: rest
-author: brjohnstmsft
+page_type: sample
+languages:
+- powershell
+products:
+- azure
+description: "This sample includes scripted REST API requests that are meant to help when getting started with the Azure Search REST API."
+urlFragment: search-rest-api-getting-started
 ---
 
 # Getting Started with Azure Search using the REST API
