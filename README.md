@@ -1,33 +1,23 @@
----
-page_type: sample
-languages:
-- powershell
-products:
-- azure
-description: "This sample includes scripted REST API requests that are meant to help when getting started with the Azure Search REST API."
-urlFragment: search-rest-api-getting-started
----
+# Search-rest-api-getting-started sample
 
-# Getting Started with Azure Search using the REST API
+This legacy [Azure Cognitive Search](https://docs.microsoft.com/azure/search/) sample includes scripted REST API requests that demonstrate the following operations:
 
-This sample includes scripted REST API requests that are meant to help when getting started with the Azure Search REST API. The sample REST API requests show how to:
+* [Create and Delete a search index](https://docs.microsoft.com/rest/api/searchservice/create-index)
+* [Upload Documents](https://docs.microsoft.com/rest/api/searchservice/addupdate-or-delete-documents) to a search index
+* [Search & Filter Documents](https://docs.microsoft.com/rest/api/searchservice/search-documents) within an index
 
-* Create and Delete an Azure Search index
-* Upload Documents to an Azure Search index
-* Search & Filter documents within an index
+## Status: Archived
 
-## Running the REST API sample
+This sample is archived and will no longer be maintained. For an alternative resource, we recommend the [Azure-Samples/azure-search-postman-samples](https://github.com/Azure-Samples/azure-search-postman-samples) repository.
 
-The REST API sample is currently a PowerShell script that runs on Windows. First you will need to edit the script, which is called `RestHowTo.ps1` and is in the `RestHowTo` directory. Set the `$apiKey` and `$searchServiceName` variables at the top of the file to the admin key and name of your Azure Search service. Then, from the PowerShell command prompt, change to the `RestHowTo` directory and run `./RestHowTo.ps1`.
+## Run the sample
 
-## More information
+The REST API sample is currently a PowerShell script that runs on Windows.
 
-For more details on these samples, please refer to these articles on Azure.com:
+1. Edit the script `RestHowTo\RestHowTo.ps1`. Set the `$apiKey` and `$searchServiceName` variables at the top of the file to the admin key and name of your Azure Cognitive Search service.
+1. Open a PowerShell command prompt.
+1. Navigate to the `RestHowTo` directory and run `./RestHowTo.ps1`.
 
-  - [Create an Azure Search index using the REST API](https://azure.microsoft.com/documentation/articles/search-create-index-rest-api/).
-  - [Import data to Azure Search using the REST API](https://azure.microsoft.com/documentation/articles/search-import-data-rest-api/).
-  - [Query your Azure Search index using the REST API](https://azure.microsoft.com/documentation/articles/search-query-rest-api/).
-
----
+## About this project
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
